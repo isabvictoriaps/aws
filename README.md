@@ -55,5 +55,24 @@ O AWS Lambda é um serviço de computação sem servidor e orientado a eventos q
 1. Você faz o upload do seu código para o AWS lambda ou escreve lá direto no editor da console AWS
 2. Você configura seu código para ser executado a partir de outros serviços da AWS, como end-points HTTP (API Gateway) ou pode ser a partir de um arquivo ou evento do S3 
 3. O Lambda executa o seu código apenas quando acionado, usando apenas os recursos de computação necessários
-4. Você paga apenas pelo tempo de computação que você utilizar
+4. Você paga apenas pelo tempo de computação que você utilizar. <br><br>
 
+<h3>Por trás do passo 3 - Quando o Lambda é executado</h3>
+
+![image](https://user-images.githubusercontent.com/93364960/233853788-1fa049a8-a7c4-4028-944d-80956f1d9484.png)
+
+1. Antes de tudo, quando o lambda é executado acontece o Download do código, a AWS faz isso por trás dos panos e com altíssima velocidade
+2. Além de baixar o código, a AWS também faz o setup do container, preparando o ambiente que será rodado o noso código.
+3. Inicialização e start do código, que é quando inicia o script/execução do código
+4. Quando a execução de fato inicia, depois de todo o preparo e aquecimento do lambda
+
+<i>O tempo de cold start seria o tempo antes da execução do código, no caso, o tempo entre chegar um evento de inicialização do código e ser executado</i> <br><br>
+
+<h3>Preço no Lambda</h3>
+
+- É cobrado pelo número de solicitações de suas funções e pela duração, o tempo que leva para seu código seja executado.
+- O Lambda conta uma solicitação cada vez que começa a executar em resposta a uma notificação de evento ou chamada de invocação, incluindo invocações de teste do console.
+- A duração é calculada a partir do momento m que seu código começa a ser executado até ele retornar ou encerrar, arredondando para os 100 ms mais próximos
+- O preço depende da quantidade de memória que você alocar para sua função
+- No modelo de recursos do AWS Lambda, você seleciona a quantidade de memória que quer para sua função. Capacidade de CPU e outros recursos são alocados de forma proporcional
+- Um aumento no tamanho da memória aciona um aumento equivalente na CPU disponível para sua função
