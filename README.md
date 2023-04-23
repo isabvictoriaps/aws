@@ -48,7 +48,13 @@ O AWS Lambda é um serviço de computação que permite executar código sem o p
 - É pago apenas pelo tempo de computação consumida
 - Basta Carregar o código e o lambda se encarrega de todos os itens necessários para executar e permitir que o código seja escalável e com alta disponibilidade
 
+<h3>Como funciona o Lambda?</h3>
+O AWS Lambda é um serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores. Você pode acionar o Lambda a partir de mais de 200 serviços da AWS e aplicações de software como serviço (SaaS) e pagar apenas pelo que usar. <br> <br>
 
+![WhatsApp Image 2023-04-23 at 13 51 50](https://user-images.githubusercontent.com/93364960/233853321-a924eb14-dbe2-4213-a939-a368c991a457.jpeg)
 
-
+1. Você faz o upload do seu código para o AWS lambda ou escreve lá direto no editor da console AWS
+2. Você configura seu código para ser executado a partir de outros serviços da AWS, como end-points HTTP (API Gateway) ou pode ser a partir de um arquivo ou evento do S3 
+3. O Lambda executa o seu código apenas quando acionado, usando apenas os recursos de computação necessários
+4. Você paga apenas pelo tempo de computação que você utilizar
 
