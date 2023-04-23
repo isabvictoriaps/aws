@@ -40,7 +40,7 @@ A AWS possui uma infra extremamente segura, contando com recursos como: IAM user
 
 <h2 id="lambda">O que é o AWS Lambda?:</h2>
 
-O AWS Lambda é um serviço de computação que permite executar código sem o provisionamento ou gerenciamento de servidores, basta escrever o código e fazer o upload para a Lambda. Algumas características do serviço são:
+O AWS Lambda é um serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores. Você pode acionar o Lambda a partir de mais de 200 serviços da AWS e aplicações de software como serviço (SaaS) e pagar apenas pelo que usar. Algumas características do serviço são:
 - O AWS Lambda escala automaticamente as aplicações, executando código em resposta a cada acionamento. O código é executado em paralelo e processa cada acionamento individualmente, escalando precisamente de acordo com o tamanho da carga de trabalho. <br>
 <i>(ex: se chegar 5 requisições ao mesmo tempo, ele vai subir 5 instâncias lambda, vai processar cada um individualmente, uma não vai saber da existência da outra e vai retornar cada um para quem solicitou)</i> <br>
 - Com o AWS Lambda, você é cobrado a cada 100 ms de execução do código e pelo número de vezes que o código é acionado. Você paga apenas pelo tempo de computação consumido
@@ -48,8 +48,7 @@ O AWS Lambda é um serviço de computação que permite executar código sem o p
 - É pago apenas pelo tempo de computação consumida
 - Basta Carregar o código e o lambda se encarrega de todos os itens necessários para executar e permitir que o código seja escalável e com alta disponibilidade
 
-<h3>Como funciona o Lambda?</h3>
-O AWS Lambda é um serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores. Você pode acionar o Lambda a partir de mais de 200 serviços da AWS e aplicações de software como serviço (SaaS) e pagar apenas pelo que usar. <br> <br>
+<h3>Como funciona o Lambda na prática?</h3>
 
 ![WhatsApp Image 2023-04-23 at 13 51 50](https://user-images.githubusercontent.com/93364960/233853321-a924eb14-dbe2-4213-a939-a368c991a457.jpeg)
 
