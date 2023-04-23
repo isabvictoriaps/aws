@@ -10,3 +10,23 @@ Como plataforma, ela entrega:
 - Infraestrutura de redes e servidores, virtualização;
 - Computação e hospedagem de aplicações;
 - Além de ferramentas para Machine Learning, Inteligência Artificial, Análises e Internet das Coisas.
+
+<h3>Benefícios:</h3>
+Os princípais benefícios de utilizar AWS nas aplicações são: <br><br>
+
+<b> - Escalonamento automático e elasticidade: </b><br> 
+Conforme a nossa aplicação demanda de mais recursos para a execução, mais recursos podem ser automaticamente liberadas a ela. Assim, atendendo a uma demanda maior e de forma transparente para o usuário final.  Da mesma forma que, quando a demanda diminui, os recursos que estão sobrando são removidos, diminuindo drasticamente os custos com o sistema.<br> 
+
+<b> - Alta disponibilidade: </b><br> 
+Devido a presença global da AWS, a sua infraestrutura está espalhada por diversos pontos do mundo, o que permite dados mais próximos do usuário final e, consequentemente, com menos latência. Além disso, é possível fazer um balanceamento de carga afim de equilibrar os acessos entre as diversas instancias da aplicação.
+
+<b> - Baixo acoplamento: </b><br> 
+Micro-serviços podem funcionar de maneira independente (uso de SNS, SQS, entre outros)
+
+<b> - Baixo custo: </b><br>
+A AWS oferece um preço baixa para os principais serviços, tendo nível gratuito para diversos recursos. Além disso, o usuário paga apenas pelo o que usa.
+
+<b> - Segurança: </b><br>
+A AWS possui uma infra extremamente segura, contando com recursos como: IAM users, IAM Groups, IAM Policies e IAM Roles para gerenciar o acesso e visibilidade de recursos. Além disso, é possível criar e gerenciar chaves de criptografia através do KMS (Key Management Service)
+
+
