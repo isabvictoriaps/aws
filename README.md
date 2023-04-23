@@ -4,7 +4,8 @@
 
 <h3>Sumário</h3>
 <a href="#oquee">1. O que é a AWS?</a> <br>
-<a href="#beneficios">2. Por que utilizar AWS?</a> 
+<a href="#beneficios">2. Por que utilizar AWS?</a> <br>
+<a href="#lambda">2. O que é o AWS Lambda?</a> 
 
 
 <h2 id="oquee">O que é AWS?</h2>
@@ -17,9 +18,9 @@ Como plataforma, ela entrega:
 - Um conjunto de soluções para armazenamento de dados;
 - Infraestrutura de redes e servidores, virtualização;
 - Computação e hospedagem de aplicações;
-- Além de ferramentas para Machine Learning, Inteligência Artificial, Análises e Internet das Coisas.
+- Além de ferramentas para Machine Learning, Inteligência Artificial, Análises e Internet das Coisas. <br><br>
 
-<h3 id="beneficios">Por que utilizar AWS?:</h3>
+<h2 id="beneficios">Por que utilizar AWS?:</h2>
 Os princípais benefícios de utilizar AWS nas aplicações são: <br><br>
 
 <b> - Escalonamento automático e elasticidade: </b><br> 
@@ -36,5 +37,18 @@ A AWS oferece um preço baixa para os principais serviços, tendo nível gratuit
 
 <b> - Segurança: </b><br>
 A AWS possui uma infra extremamente segura, contando com recursos como: IAM users, IAM Groups, IAM Policies e IAM Roles para gerenciar o acesso e visibilidade de recursos. Além disso, é possível criar e gerenciar chaves de criptografia através do KMS (Key Management Service)
+
+<h2 id="lambda">O que é o AWS Lambda?:</h2>
+
+O AWS Lambda é um serviço de computação que permite executar código sem o provisionamento ou gerenciamento de servidores, basta escrever o código e fazer o upload para a Lambda. Algumas características do serviço são:
+- O AWS Lambda escala automaticamente as aplicações, executando código em resposta a cada acionamento. O código é executado em paralelo e processa cada acionamento individualmente, escalando precisamente de acordo com o tamanho da carga de trabalho. <br>
+<i>(ex: se chegar 5 requisições ao mesmo tempo, ele vai subir 5 instâncias lambda, vai processar cada um individualmente, uma não vai saber da existência da outra e vai retornar cada um para quem solicitou)</i> <br>
+- Com o AWS Lambda, você é cobrado a cada 100 ms de execução do código e pelo número de vezes que o código é acionado. Você paga apenas pelo tempo de computação consumido
+- Com o AWS Lambda, você pode otimizar o tempo de execução do código escolhendo o tamanho de memória ideal para a sua função. Você também pode habilitar a Simultaneidade provisionada para manter suas funções inicializadas e prontas para responder em questão de poucos segundos.
+- É pago apenas pelo tempo de computação consumida
+- Basta Carregar o código e o lambda se encarrega de todos os itens necessários para executar e permitir que o código seja escalável e com alta disponibilidade
+
+
+
 
 
