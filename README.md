@@ -2,7 +2,12 @@
 
 # ☁️ Amazon Web Service
 
-<h2>O que é AWS?</h2>
+<h3>Sumário</h3>
+<a href="#oquee">1. O que é a AWS?</a> <br>
+<a href="#beneficios">2. Por que utilizar AWS?</a> 
+
+
+<h2 id="oquee">O que é AWS?</h2>
 A plataforma de computação em nuvem da Amazon (Amazon Web Service) é utilizada para o desenvolvimento de aplicações que podem ser altamente escaláveis devido aos recursos da plataforma e a virtualização.
 
 É a plataforma mais adotada e abrangente, possuindo mais de 200 serviços disponibilizados em datacenters por todo o mundo. A AWS possui uma infra global e foi projetada para ser segura e flexível. <br>
@@ -14,7 +19,7 @@ Como plataforma, ela entrega:
 - Computação e hospedagem de aplicações;
 - Além de ferramentas para Machine Learning, Inteligência Artificial, Análises e Internet das Coisas.
 
-<h3>Benefícios:</h3>
+<h3 id="beneficios">Por que utilizar AWS?:</h3>
 Os princípais benefícios de utilizar AWS nas aplicações são: <br><br>
 
 <b> - Escalonamento automático e elasticidade: </b><br> 
