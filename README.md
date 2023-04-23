@@ -1,8 +1,11 @@
 ![image 1 (1)](https://user-images.githubusercontent.com/93364960/233743602-d594a535-0f45-4958-8729-c71acec06676.png)
 
 # ☁️ Amazon Web Service
-A plataforma de computação em nuvem da Amazon (Amazon Web Service) é utilizada para o desenvolvimento de aplicações que
-podem ser altamente escaláveis devido aos recursos da plataforma e a virtualização.
+
+<h2>O que é AWS?</h2>
+A plataforma de computação em nuvem da Amazon (Amazon Web Service) é utilizada para o desenvolvimento de aplicações que podem ser altamente escaláveis devido aos recursos da plataforma e a virtualização.
+
+É a plataforma mais adotada e abrangente, possuindo mais de 200 serviços disponibilizados em datacenters por todo o mundo. A AWS possui uma infra global e foi projetada para ser segura e flexível. <br>
 
 Como plataforma, ela entrega:
 
