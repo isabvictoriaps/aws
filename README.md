@@ -6,6 +6,7 @@
 <a href="#compNuvem">1. O que é computação em nuvem?</a> <br>
 <a href="#oquee">2. O que é a AWS?</a> <br>
 <a href="#beneficios">3. Por que utilizar AWS?</a> <br>
+<a href="#ips">3. Iaas x Paas x Saas</a> <br>
 <a href="#lambda">4. O que é o AWS Lambda?</a> 
 
 <h2 id="compNuvem">O que é Computação em Nuvem?</h2>
@@ -40,6 +41,16 @@ A AWS oferece um preço baixa para os principais serviços, tendo nível gratuit
 
 <b> - Segurança: </b><br>
 A AWS possui uma infra extremamente segura, contando com recursos como: IAM users, IAM Groups, IAM Policies e IAM Roles para gerenciar o acesso e visibilidade de recursos. Além disso, é possível criar e gerenciar chaves de criptografia através do KMS (Key Management Service)
+
+<h2 id="ips">Por que utilizar AWS?:</h2>
+<h3>- 💻 IaaS (Infraestrutura como serviço - Hospedar)</h3>
+É uma forma de entrega de serviços de infraestrutura pela Internet. A AWS Gerencia servidores, armazenamentos e networks. Iaas fornece os mesmos recursos que os data centers tradicionais, mas sem a necessidade de manter ou gerenciar fisicamente. 
+
+<h3>- 💻 PaaS (Plataforma como serviço - Desenvolver)</h3>
+PaaS oferece uma estrutura para os desenvolvedores criarem seus softwares. Em vez de codificar tudo desde o início, os fornecedores de PaaS geralmente têm blocos pré-construídos que os programadores podem simplesmente conectar e usar para construir rapidamente melhores aplicações.
+
+<h3>- 💻 Saas (Software como serviço - Consumir)</h3>
+Trata-se do uso de um software 100% na nuvem, podendo ser acessado de qualquer lugar, pois é via internet. 
 
 <h2 id="lambda">O que é o AWS Lambda?:</h2>
 
