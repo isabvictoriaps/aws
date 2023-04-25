@@ -4,12 +4,12 @@
 
 <h3>Sumário</h3>
 <a href="#compNuvem">1. O que é computação em nuvem?</a> <br>
-<a href="#oquee">1. O que é a AWS?</a> <br>
-<a href="#beneficios">2. Por que utilizar AWS?</a> <br>
-<a href="#lambda">2. O que é o AWS Lambda?</a> 
+<a href="#oquee">2. O que é a AWS?</a> <br>
+<a href="#beneficios">3. Por que utilizar AWS?</a> <br>
+<a href="#lambda">4. O que é o AWS Lambda?</a> 
 
 <h2 id="compNuvem">O que é Computação em Nuvem?</h2>
-É a entrega sob demanda de recursos computacionais, através de uma plataforma de serviço via internet, sem o gerenciamento ativo do usuário
+É a entrega sob demanda de recursos computacionais, através de uma plataforma de serviço via internet, sem o gerenciamento ativo do usuário. O fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) colaboram para inovações mais rápidas, recursos flexíveis e economias de escala. 
 
 <h2 id="oquee">O que é AWS?</h2>
 A plataforma de computação em nuvem da Amazon (Amazon Web Service) é utilizada para o desenvolvimento de aplicações que podem ser altamente escaláveis devido aos recursos da plataforma e a virtualização.
