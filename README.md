@@ -75,13 +75,13 @@ um ou mais data centers que estão na mesma região, atuando de forma independen
 
 <h2 id="ofertas">Tipos de ofertas: </h2>
 
-<h3> Testes Gratuitos </h3>
+<h3>🆓 Testes Gratuitos </h3>
 Testes gratuitos de curto prazo
 
-<h3> 12 meses gratuitos </h3> 
+<h3>🆓 12 meses gratuitos </h3> 
 Serviços gratuitos por 12 meses - com recursos limitados.
 
-<h3> Sempre gratuito </h3> 
+<h3>🆓 Sempre gratuito </h3> 
 Nível gratuito que está disponível para todos.
 
 
