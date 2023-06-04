@@ -6,8 +6,11 @@
 <a href="#compNuvem">1. O que é computação em nuvem?</a> <br>
 <a href="#oquee">2. O que é a AWS?</a> <br>
 <a href="#beneficios">3. Por que utilizar AWS?</a> <br>
-<a href="#ips">3. Iaas x Paas x Saas</a> <br>
-<a href="#lambda">4. O que é o AWS Lambda?</a> 
+<a href="#ips">4. Modelos de serviços em nuvem</a> <br>
+<a href="#opca">5. OPEX vs CAPEX</a> <br>
+<a href="#regioes">6. Regiões e Zonas de Disponibilidade</a> <br>
+<a href="#ofertas">7. Tipos de ofertas </a> <br>
+<a href="#lambda">8. O que é o AWS Lambda?</a>
 
 <h2 id="compNuvem">O que é Computação em Nuvem?</h2>
 É a entrega sob demanda de recursos computacionais, através de uma plataforma de serviço via internet, sem o gerenciamento ativo do usuário. O fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) colaboram para inovações mais rápidas, recursos flexíveis e economias de escala. 
@@ -51,6 +54,36 @@ PaaS oferece uma estrutura para os desenvolvedores criarem seus softwares. Em ve
 
 <h3>- 💻 Saas (Software como serviço - Consumir)</h3>
 Trata-se do uso de um software 100% na nuvem, podendo ser acessado de qualquer lugar, pois é via internet. 
+
+<h2 id="opca">OPEX vs CAPEX</h2>
+<h3> 💰 OPEX (Operational Expenditure) </h3>
+OPEX é uma sigla utilizada para indicar os cutos operacionais relacionados pelas empresas. As despesas operacionais são aquelas relacionadas às operações diárias e dizem respeito aos investimentos em alocação de serviços, ou seja, são os "aluguéis" pagos mensalmente pelas empresas. Os serviços na nuvem estão alocadas nessa categoria. 
+
+<h3> 💰 CAPEX (Capital Expenditure) </h3>
+É o termo usado para se referir às despesas de capital realizadas por uma empresa. São compras projetadas para serem usadas por um longo período de tempo, como a de novos equipamentos. Alguns exemplos de CAPEX são: computadores, hardwares, servidores, automóveis, etc.
+
+<h2 id="regioes">Regiões e Zonas de disponibilidade: </h2>
+<h3> 📍 Região </h3>
+A região é um conjunto de data centers em uma localização geográfica.
+exemplo: América do Sul (São Paulo), Leste dos EUA (Norte da Virgínia)
+
+<h3> 📍 Zona de disponibilidade </h3>
+um ou mais data centers que estão na mesma região, atuando de forma independente em caso de falha.
+
+<h3> 📍 Ponto de presença </h3>
+É uma infra de servidores localizado próximo de uma Zona de Disponibilidade, que armazena os dados mais solicitados no cache, para entregar com menor latência uma requisição de consulta. 
+
+<h2 id="ofertas">Tipos de ofertas: </h2>
+
+<h3> Testes Gratuitos </h3>
+Testes gratuitos de curto prazo
+
+<h3> 12 meses gratuitos </h3> 
+Serviços gratuitos por 12 meses - com recursos limitados.
+
+<h3> Sempre gratuito </h3> 
+Nível gratuito que está disponível para todos.
+
 
 <h2 id="lambda">O que é o AWS Lambda?:</h2>
 
