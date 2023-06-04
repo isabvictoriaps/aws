@@ -42,7 +42,7 @@ A AWS oferece um preço baixa para os principais serviços, tendo nível gratuit
 <b> - Segurança: </b><br>
 A AWS possui uma infra extremamente segura, contando com recursos como: IAM users, IAM Groups, IAM Policies e IAM Roles para gerenciar o acesso e visibilidade de recursos. Além disso, é possível criar e gerenciar chaves de criptografia através do KMS (Key Management Service)
 
-<h2 id="ips">Por que utilizar AWS?:</h2>
+<h2 id="ips">Modelos de serviços em nuvem:</h2>
 <h3>- 💻 IaaS (Infraestrutura como serviço - Hospedar)</h3>
 É uma forma de entrega de serviços de infraestrutura pela Internet. A AWS Gerencia servidores, armazenamentos e networks. Iaas fornece os mesmos recursos que os data centers tradicionais, mas sem a necessidade de manter ou gerenciar fisicamente. 
 
